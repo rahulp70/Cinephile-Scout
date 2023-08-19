@@ -1,0 +1,151 @@
+.selectAll {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.select-option {
+  width: 250px;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #333;
+  background-color: #f5f5f5;
+  margin: 0 10px;
+}
+
+.result-item {
+  display: flex;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 300px;
+  padding: 20px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: rgb(15 23 42);
+  color: white;
+}
+
+.imageandinfo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 20%;
+}
+
+.result-image {
+  max-width: 200px;
+  max-height: 150px;
+
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.imbd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.imbd_rating-icon,
+.youtube {
+  width: 2em;
+  height: 2em;
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+
+.imbd-rating {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.trailer {
+  margin: 0;
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+.result_info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.result_info {
+  margin: 50px 0;
+  flex: 1;
+  text-align: left;
+  font-size: 15px;
+  width: 20%;
+}
+.result_info p {
+  margin: 5px 0;
+}
+
+.result_info2 {
+  flex: 1;
+  width: 50%;
+  padding-top: 40px;
+}
+.Header {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.Footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+.search-bar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.below-header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: black;
+}
+
+.logo {
+  max-width: 200px;
+  max-height: 120px;
+  margin-right: 20px;
+  padding-left: 2px;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 100px;
+  width: 20%;
+}
+
+.search-bar input {
+  max-width: 300%;
+  width: 1500px;
+  font-size: 16px; /* Increase font size */
+  padding: 10px;
+}
+.ALL {
+  background-color: rgb(64 64 64);
+}
